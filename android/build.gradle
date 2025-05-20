@@ -62,10 +62,12 @@ dependencies {
     // iris dependencies end
 
     // native dependencies start
-    api 'io.agora.rtc:full-sdk:4.5.2'
-    api 'io.agora.rtc:full-screen-sharing:4.5.2'
+    // api 'io.agora.rtc:full-sdk:4.5.2'
+    // api 'io.agora.rtc:full-screen-sharing:4.5.2'
     // native dependencies end
   }
+
+    implementation 'io.agora.rtc:full-rtc-basic:3.7.0.3'
 }
 
 static boolean isDev(Project project) {
